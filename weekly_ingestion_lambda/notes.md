@@ -15,3 +15,8 @@
 last 7 days of data can be accessed on the website.
   * e.g.: https://www.weather.gov/wrh/timeseries?site=G4589&hours=168
 
+
+## Forecasts:
+* [NWS API (requires header)] (https://www.weather.gov/documentation/services-web-api#/default/gridpoint_forecast)
+* For any location: [NWS Tabular Forecast Example](https://forecast.weather.gov/MapClick.php?lat=40.45&lon=-105.43&lg=english&&FcstType=digital)
+

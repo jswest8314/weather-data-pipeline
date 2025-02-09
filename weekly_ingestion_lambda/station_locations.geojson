@@ -1,0 +1,148 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stationid": "CO226",
+        "name": "025S26595RWS1RHS - 0.6 miles N of E Harmony Rd in Fort Collins",
+        "provider": "CDOT",
+        "latitude": "40.53",
+        "longitude": "-104.99",
+        "elevation_ft": "5010.0",
+        "data_availability": "API",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          [
+            [
+              -104.993773,
+              40.531649
+            ]
+          ]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "stationid": "G4499",
+        "name": "GW4499 FORT COLLINS",
+        "provider": "APRSWXNET/CWOP",
+        "latitude": "40.54",
+        "longitude": "-105.05",
+        "elevation_ft": "4967.0",
+        "data_availability": "API",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          [
+            [
+              -105.045146,
+              40.542929
+            ]
+          ]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "stationid": "G4589",
+        "name": "GW4589 FORT COLLINS",
+        "provider": "APRSWXNET/CWOP",
+        "latitude": "40.53",
+        "longitude": "-105.08",
+        "elevation_ft": "5055.0",
+        "data_availability": "API",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          [
+            [
+              -105.081962,
+              40.526634
+            ]
+          ]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "stationid": "KFNL",
+        "name": "Fort Collins/Loveland - Northern Colorado Regional Airport",
+        "provider": "ASOS/AWOS",
+        "latitude": "40.45",
+        "longitude": "-105.02",
+        "elevation_ft": "5016.0",
+        "data_availability": "API",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          [
+            [
+              -105.019612,
+              40.464716
+            ]
+          ]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "stationid": "CO050",
+        "name": "025N25915RWS1RP1 - 0.2 mi S of Crossroads Blvd",
+        "provider": "CDOT",
+        "latitude": "40.43",
+        "longitude": "-104.99",
+        "elevation_ft": "5052.0",
+        "data_availability": "API",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          [
+            [
+              -104.992134,
+              40.429334
+            ]
+          ]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "stationid": "CO050",
+        "name": "025N25915RWS1RP1 - 0.2 mi S of Crossroads Blvd",
+        "provider": "CDOT",
+        "latitude": "40.43",
+        "longitude": "-104.99",
+        "elevation_ft": "5052.0",
+        "data_availability": "API",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          [
+            [
+              -104.992134,
+              40.429334
+            ]
+          ]
+        ]
+      }
+    },
+    ]
+}

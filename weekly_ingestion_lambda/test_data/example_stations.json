@@ -1,0 +1,317 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "s": "https://schema.org/",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#",
+            "geometry": {
+                "@id": "s:GeoCoordinates",
+                "@type": "geo:wktLiteral"
+            },
+            "city": "s:addressLocality",
+            "state": "s:addressRegion",
+            "distance": {
+                "@id": "s:Distance",
+                "@type": "s:QuantitativeValue"
+            },
+            "bearing": {
+                "@type": "s:QuantitativeValue"
+            },
+            "value": {
+                "@id": "s:value"
+            },
+            "unitCode": {
+                "@id": "s:unitCode",
+                "@type": "@id"
+            },
+            "forecastOffice": {
+                "@type": "@id"
+            },
+            "forecastGridData": {
+                "@type": "@id"
+            },
+            "publicZone": {
+                "@type": "@id"
+            },
+            "county": {
+                "@type": "@id"
+            },
+            "observationStations": {
+                "@container": "@list",
+                "@type": "@id"
+            }
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/stations/1924W",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.35684,
+                    39.62229
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/1924W",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2359.152
+                },
+                "stationIdentifier": "1924W",
+                "name": "Alderfer/Three Sisters Park",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ036",
+                "county": "https://api.weather.gov/zones/county/COC059",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ216"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/1925W",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.31976,
+                    39.86572
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/1925W",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2442.972
+                },
+                "stationIdentifier": "1925W",
+                "name": "Coal Creek Canyon",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ036",
+                "county": "https://api.weather.gov/zones/county/COC059",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ216"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/1927W",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.30136,
+                    39.50947
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/1927W",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2488.9968
+                },
+                "stationIdentifier": "1927W",
+                "name": "Beaver Ranch",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ036",
+                "county": "https://api.weather.gov/zones/county/COC059",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ216"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/1930W",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.20751,
+                    39.73102
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/1930W",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1822.0944
+                },
+                "stationIdentifier": "1930W",
+                "name": "JeffCoGovCampus",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ036",
+                "county": "https://api.weather.gov/zones/county/COC059",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ216"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/3CO4",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.01861,
+                    37.07085
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/3CO4",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2425.2936
+                },
+                "stationIdentifier": "3CO4",
+                "name": "TERCIORANCH",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ074",
+                "county": "https://api.weather.gov/zones/county/COC071",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ225"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/A1071",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -108.4903,
+                    37.1983
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/A1071",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2165.9088
+                },
+                "stationIdentifier": "A1071",
+                "name": "Mesa Verde NP",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ021",
+                "county": "https://api.weather.gov/zones/county/COC083",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ207"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/A1294",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.5453,
+                    40.2778
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/A1294",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2748.9912
+                },
+                "stationIdentifier": "A1294",
+                "name": "Rocky Mtn NP Collocated",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ033",
+                "county": "https://api.weather.gov/zones/county/COC069",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ218"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/A3147",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.62863,
+                    37.13678
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/A3147",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1993.0872
+                },
+                "stationIdentifier": "A3147",
+                "name": "Ute 1",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ022",
+                "county": "https://api.weather.gov/zones/county/COC067",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ207"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/A3648",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.25412,
+                    37.20586
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/A3648",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2026.0056
+                },
+                "stationIdentifier": "A3648",
+                "name": "7004",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ023",
+                "county": "https://api.weather.gov/zones/county/COC007",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ295"
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/A3679",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.87022,
+                    37.10258
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/A3679",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1944.0144
+                },
+                "stationIdentifier": "A3679",
+                "name": "Ute 3",
+                "timeZone": "America/Denver",
+                "forecast": "https://api.weather.gov/zones/forecast/COZ022",
+                "county": "https://api.weather.gov/zones/county/COC067",
+                "fireWeatherZone": "https://api.weather.gov/zones/fire/COZ207"
+            }
+        }
+    ],
+    "observationStations": [
+        "https://api.weather.gov/stations/1924W",
+        "https://api.weather.gov/stations/1925W",
+        "https://api.weather.gov/stations/1927W",
+        "https://api.weather.gov/stations/1930W",
+        "https://api.weather.gov/stations/3CO4",
+        "https://api.weather.gov/stations/A1071",
+        "https://api.weather.gov/stations/A1294",
+        "https://api.weather.gov/stations/A3147",
+        "https://api.weather.gov/stations/A3648",
+        "https://api.weather.gov/stations/A3679"
+    ],
+    "pagination": {
+        "next": "https://api.weather.gov/stations?state%5B0%5D=CO&limit=10&cursor=eyJzIjoxMH0%3D"
+    }
+}
